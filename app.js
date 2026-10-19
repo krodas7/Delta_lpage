@@ -104,7 +104,11 @@ SECTIONS.forEach((section) => {
     ),
   );
   dock.append(
-    buttonFor(section, "dock__btn", `<span>${section.num} ${section.label}</span>`),
+    buttonFor(
+      section,
+      "dock__btn",
+      `<span class="num">${section.num}</span><span class="dock__label">${section.label}</span>`,
+    ),
   );
 });
 
