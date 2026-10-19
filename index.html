@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>DELTA | Proyectos y servicios</title>
+    <meta
+      name="description"
+      content="Delta es una empresa nueva de infraestructura industrial. Obra civil, preparación de sitio y soporte para proyectos de energía e industria."
+    />
+    <meta name="theme-color" content="#a00000" />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=JetBrains+Mono:wght@500;600&family=Syne:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip" href="#contenido">Saltar al contenido</a>
+
+    <div class="stage" id="stage">
+      <div class="bg" id="bg" aria-hidden="true"></div>
+      <div class="bg-scrim" aria-hidden="true"></div>
+
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-pressed="false">
+        <span class="theme-toggle__icon" aria-hidden="true"></span>
+        <span class="sr-only" id="theme-label">Activar tema claro</span>
+      </button>
+
+      <aside class="rail" aria-label="Índice">
+        <img class="rail__logo" src="logo.png" alt="Delta. Proyectos y servicios." />
+        <p class="rail__kicker">Índice</p>
+        <nav class="rail__nav" id="rail-nav"></nav>
+      </aside>
+
+      <div class="viewport" id="contenido">
+        <section class="hero" data-panel="inicio" aria-labelledby="hero-title">
+          <img class="hero__logo" src="logo.png" alt="Delta. Proyectos y servicios." />
+          <p class="eyebrow">Obra de sitio · Energía · Industria</p>
+          <h1 id="hero-title">
+            Del primer<br />
+            <span>trazo.</span>
+          </h1>
+          <p class="hero__lead">
+            Empresa nueva dedicada a preparación de terreno, obra civil y soporte de sitio
+            para proyectos industriales y de energía.
+          </p>
+          <p class="hero__line">Construcción, ingeniería de campo y logística.</p>
+          <div class="hero__actions">
+            <button class="btn btn-gold" type="button" data-go="contacto">Abrir expediente</button>
+            <button class="btn btn-line" type="button" data-go="servicios">Servicios</button>
+            <button class="btn btn-line" type="button" data-go="contacto">Escribir</button>
+          </div>
+        </section>
+
+        <article class="panel" data-panel="energias" hidden>
+          <header class="panel__top">
+            <div>
+              <p class="code">DELTA-02 · Solar · Eólica · Hidro</p>
+              <h2>Energías</h2>
+            </div>
+            <button class="icon-btn" type="button" data-close aria-label="Cerrar apartado">×</button>
+          </header>
+          <p class="hint">
+            <button type="button" data-prev-label></button>
+            <button type="button" data-next-label></button>
+            <span>Esc cerrar</span>
+          </p>
+          <div class="panel__body">
+            <p class="eyebrow">Línea de energía</p>
+            <h3 class="statement">Sitio listo <em>para generar.</em></h3>
+            <p class="deck">
+              Delta entra antes del montaje. Dejamos plataformas, accesos y obra civil de sitio
+              para que el equipo de generación encuentre un predio ordenado.
+            </p>
+            <div class="energy-list">
+              <article class="energy">
+                <img
+                  src="https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=900&q=70"
+                  alt="Campo de paneles solares al atardecer"
+                />
+                <div>
+                  <p class="code">01 · Solar</p>
+                  <h4>Energía solar</h4>
+                  <p>Movimiento de tierra, plataformas y caminos internos para campos solares.</p>
+                  <ul>
+                    <li>Preparación de terreno</li>
+                    <li>Plataformas y accesos</li>
+                    <li>Obra civil de sitio</li>
+                  </ul>
+                </div>
+              </article>
+              <article class="energy">
+                <img
+                  src="https://images.unsplash.com/photo-1466611653911-95081537e5b7?auto=format&fit=crop&w=900&q=70"
+                  alt="Aerogeneradores en un parque eólico"
+                />
+                <div>
+                  <p class="code">02 · Eólica</p>
+                  <h4>Energía eólica</h4>
+                  <p>Vías de acceso y áreas de trabajo para el ingreso de componentes de gran tamaño.</p>
+                  <ul>
+                    <li>Preparación de predio</li>
+                    <li>Vías de montaje</li>
+                    <li>Logística de equipo</li>
+                  </ul>
+                </div>
+              </article>
+              <article class="energy">
+                <img
+                  src="https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=900&q=70"
+                  alt="Cauce de agua entre roca, referencia de obra hídrica"
+                />
+                <div>
+                  <p class="code">03 · Hidro</p>
+                  <h4>Energía hidráulica</h4>
+                  <p>Terracería, contención y apoyo de maquinaria para frentes junto al agua.</p>
+                  <ul>
+                    <li>Terracería</li>
+                    <li>Muros y contención</li>
+                    <li>Soporte de equipo</li>
+                  </ul>
+                </div>
+              </article>
+            </div>
+            <div class="panel__actions">
+              <button class="btn btn-gold" type="button" data-go="contacto" data-topic="Proyecto energético">
+                Cotizar proyecto energético
+              </button>
+              <button class="btn btn-line" type="button" data-go="fichas">Ver fichas</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="panel" data-panel="servicios" hidden>
+          <header class="panel__top">
+            <div>
+              <p class="code">DELTA-03 · Obra · Campo · Entrega</p>
+              <h2>Servicios</h2>
+            </div>
+            <button class="icon-btn" type="button" data-close aria-label="Cerrar apartado">×</button>
+          </header>
+          <p class="hint">
+            <button type="button" data-prev-label></button>
+            <button type="button" data-next-label></button>
+            <span>Esc cerrar</span>
+          </p>
+          <div class="panel__body">
+            <p class="eyebrow">Qué ejecutamos</p>
+            <h3 class="statement">Seis frentes. <em>Un expediente.</em></h3>
+            <div class="cards">
+              <article class="card">
+                <p class="code">01</p>
+                <h4>Movimiento de tierra</h4>
+                <p>Corte, relleno y conformación del predio según niveles de proyecto.</p>
+              </article>
+              <article class="card">
+                <p class="code">02</p>
+                <h4>Plataformas y accesos</h4>
+                <p>Áreas de trabajo y caminos que aguantan el paso de equipo pesado.</p>
+              </article>
+              <article class="card">
+                <p class="code">03</p>
+                <h4>Obra civil industrial</h4>
+                <p>Cimentaciones menores, drenajes, bordillos y obra de sitio.</p>
+              </article>
+              <article class="card">
+                <p class="code">04</p>
+                <h4>Logística de equipo</h4>
+                <p>Ingreso, estiba y ventana de trabajo coordinada con el montaje.</p>
+              </article>
+              <article class="card">
+                <p class="code">05</p>
+                <h4>Soporte de montaje</h4>
+                <p>Apoyo de maquinaria y cuadrilla mientras otros instalan.</p>
+              </article>
+              <article class="card">
+                <p class="code">06</p>
+                <h4>Cierre de sitio</h4>
+                <p>Limpieza, conformación final y entrega con registro de lo ejecutado.</p>
+              </article>
+            </div>
+          </div>
+        </article>
+
+        <article class="panel" data-panel="nosotros" hidden>
+          <header class="panel__top">
+            <div>
+              <p class="code">DELTA-04 · Empresa nueva</p>
+              <h2>Nosotros</h2>
+            </div>
+            <button class="icon-btn" type="button" data-close aria-label="Cerrar apartado">×</button>
+          </header>
+          <p class="hint">
+            <button type="button" data-prev-label></button>
+            <button type="button" data-next-label></button>
+            <span>Esc cerrar</span>
+          </p>
+          <div class="panel__body split">
+            <div>
+              <p class="eyebrow">Por qué existimos</p>
+              <h3 class="statement">Obra clara <em>desde el día uno.</em></h3>
+              <p class="deck">
+                Delta abre con un equipo de campo y una regla simple: el alcance se escribe,
+                el plazo se cumple y el terreno se entrega medible. Somos nuevos. La forma de
+                trabajar no lo es.
+              </p>
+              <p class="deck">
+                Trabajamos con contratistas, desarrolladores y equipos de energía que necesitan
+                un frente de sitio ordenado, sin letra pequeña.
+              </p>
+            </div>
+            <ol class="principles">
+              <li>
+                <p class="code">01</p>
+                <h4>Alcance escrito</h4>
+                <p>Cada expediente dice qué entra, qué no entra y cómo se mide el avance.</p>
+              </li>
+              <li>
+                <p class="code">02</p>
+                <h4>Presencia en sitio</h4>
+                <p>La decisión de obra se toma en el predio, no en una cadena de correos.</p>
+              </li>
+              <li>
+                <p class="code">03</p>
+                <h4>Entrega medible</h4>
+                <p>Niveles, accesos y cierre quedan registrados antes de dar el frente por listo.</p>
+              </li>
+            </ol>
+          </div>
+        </article>
+
+        <article class="panel" data-panel="flota" hidden>
+          <header class="panel__top">
+            <div>
+              <p class="code">DELTA-05 · Equipo de obra</p>
+              <h2>Flota</h2>
+            </div>
+            <button class="icon-btn" type="button" data-close aria-label="Cerrar apartado">×</button>
+          </header>
+          <p class="hint">
+            <button type="button" data-prev-label></button>
+            <button type="button" data-next-label></button>
+            <span>Esc cerrar</span>
+          </p>
+          <div class="panel__body">
+            <p class="eyebrow">Capacidad operativa</p>
+            <h3 class="statement">El equipo <em>sigue al frente.</em></h3>
+            <p class="deck">
+              Movilizamos maquinaria según el expediente. La flota se confirma en cada obra,
+              con operador y ventana de trabajo. No publicamos un inventario fijo.
+            </p>
+            <div class="fleet">
+              <article>
+                <p class="code">EX</p>
+                <h4>Excavación</h4>
+                <p>Corte, zanja y carga de material.</p>
+              </article>
+              <article>
+                <p class="code">CA</p>
+                <h4>Carga y acarreo</h4>
+                <p>Movimiento interno y salida de excedente.</p>
+              </article>
+              <article>
+                <p class="code">IZ</p>
+                <h4>Izaje</h4>
+                <p>Apoyo para piezas y maniobras puntuales.</p>
+              </article>
+              <article>
+                <p class="code">CO</p>
+                <h4>Compactación</h4>
+                <p>Plataformas y caminos con el grado pedido.</p>
+              </article>
+              <article>
+                <p class="code">AP</p>
+                <h4>Apoyo de sitio</h4>
+                <p>Cuadrilla, herramienta y orden del frente.</p>
+              </article>
+            </div>
+          </div>
+        </article>
+
+        <article class="panel" data-panel="proyectos" hidden>
+          <header class="panel__top">
+            <div>
+              <p class="code">DELTA-06 · Frentes de arranque</p>
+              <h2>Proyectos</h2>
+            </div>
+            <button class="icon-btn" type="button" data-close aria-label="Cerrar apartado">×</button>
+          </header>
+          <p class="hint">
+            <button type="button" data-prev-label></button>
+            <button type="button" data-next-label></button>
+            <span>Esc cerrar</span>
+          </p>
+          <div class="panel__body">
+            <p class="eyebrow">Portafolio de apertura</p>
+            <h3 class="statement">Aún no hay <em>obras cerradas.</em></h3>
+            <p class="deck">
+              Delta es nueva. Estos tres frentes son la oferta con la que abrimos, no casos
+              ya entregados. El primer expediente publicado saldrá de una obra real.
+            </p>
+            <div class="projects">
+              <article class="project project--lead">
+                <img
+                  src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=1400&q=70"
+                  alt="Estructura de obra industrial en construcción"
+                />
+                <div>
+                  <p class="code">Frente 01</p>
+                  <h4>Predio industrial</h4>
+                  <p>Nivelación, accesos y plataforma para naves o patios de maniobra.</p>
+                </div>
+              </article>
+              <article class="project">
+                <img
+                  src="https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=900&q=70"
+                  alt="Hileras de paneles solares"
+                />
+                <div>
+                  <p class="code">Frente 02</p>
+                  <h4>Campo solar</h4>
+                  <p>Terreno, caminos y obra de sitio previos al montaje.</p>
+                </div>
+              </article>
+              <article class="project">
+                <img
+                  src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=900&q=70"
+                  alt="Plano y obra civil en desarrollo"
+                />
+                <div>
+                  <p class="code">Frente 03</p>
+                  <h4>Apoyo de montaje</h4>
+                  <p>Maquinaria y orden de sitio mientras se instala equipo.</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </article>
+
+        <article class="panel" data-panel="metodo" hidden>
+          <header class="panel__top">
+            <div>
+              <p class="code">DELTA-07 · Cómo trabajamos</p>
+              <h2>Método</h2>
+            </div>
+            <button class="icon-btn" type="button" data-close aria-label="Cerrar apartado">×</button>
+          </header>
+          <p class="hint">
+            <button type="button" data-prev-label></button>
+            <button type="button" data-next-label></button>
+            <span>Esc cerrar</span>
+          </p>
+          <div class="panel__body">
+            <p class="eyebrow">Cuatro pasos</p>
+            <h3 class="statement">Del expediente <em>al terreno.</em></h3>
+            <ol class="steps">
+              <li>
+                <p class="code">01</p>
+                <h4>Expediente</h4>
+                <p>Ubicación, alcance, plazo y restricciones. Sin eso no cotizamos.</p>
+              </li>
+              <li>
+                <p class="code">02</p>
+                <h4>Reconocimiento</h4>
+                <p>Visita de sitio, accesos reales y confirmación de equipo.</p>
+              </li>
+              <li>
+                <p class="code">03</p>
+                <h4>Ejecución</h4>
+                <p>Frente abierto con avance visible y un responsable en obra.</p>
+              </li>
+              <li>
+                <p class="code">04</p>
+                <h4>Entrega</h4>
+                <p>Cierre, registro y predio listo para el siguiente oficio.</p>
+              </li>
+            </ol>
+          </div>
+        </article>
+
+        <article class="panel" data-panel="lineas" hidden>
+          <header class="panel__top">
+            <div>
+              <p class="code">DELTA-08 · Oferta</p>
+              <h2>Líneas</h2>
+            </div>
+            <button class="icon-btn" type="button" data-close aria-label="Cerrar apartado">×</button>
+          </header>
+          <p class="hint">
+            <button type="button" data-prev-label></button>
+            <button type="button" data-next-label></button>
+            <span>Esc cerrar</span>
+          </p>
+          <div class="panel__body">
+            <p class="eyebrow">Tres maneras de entrar</p>
+            <h3 class="statement">Elige el <em>frente.</em></h3>
+            <div class="lines">
+              <button type="button" data-go="contacto" data-topic="Obra de predio">
+                <p class="code">Línea A</p>
+                <h4>Obra de predio</h4>
+                <p>Tierra, plataformas, drenaje y accesos para industria.</p>
+              </button>
+              <button type="button" data-go="contacto" data-topic="Soporte energético">
+                <p class="code">Línea B</p>
+                <h4>Soporte energético</h4>
+                <p>Sitio civil para solar, eólica o hidro.</p>
+              </button>
+              <button type="button" data-go="contacto" data-topic="Acompañamiento de montaje">
+                <p class="code">Línea C</p>
+                <h4>Acompañamiento</h4>
+                <p>Maquinaria y cuadrilla mientras otro instala.</p>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <article class="panel" data-panel="fichas" hidden>
+          <header class="panel__top">
+            <div>
+              <p class="code">DELTA-09 · Documentos</p>
+              <h2>Fichas</h2>
+            </div>
+            <button class="icon-btn" type="button" data-close aria-label="Cerrar apartado">×</button>
+          </header>
+          <p class="hint">
+            <button type="button" data-prev-label></button>
+            <button type="button" data-next-label></button>
+            <span>Esc cerrar</span>
+          </p>
+          <div class="panel__body">
+            <p class="eyebrow">Material de arranque</p>
+            <h3 class="statement">Se piden. <em>No se inventan.</em></h3>
+            <p class="deck">
+              Las fichas salen con el primer ciclo de obra. Mientras tanto puedes solicitar el
+              borrador y te lo enviamos con el expediente.
+            </p>
+            <ul class="sheets">
+              <li>
+                <div>
+                  <p class="code">Ficha 01</p>
+                  <h4>Capacidades de sitio</h4>
+                  <p>Alcance de tierra, plataformas y cierre.</p>
+                </div>
+                <button class="btn btn-line" type="button" data-go="contacto" data-topic="Ficha de capacidades">
+                  Pedir ficha
+                </button>
+              </li>
+              <li>
+                <div>
+                  <p class="code">Ficha 02</p>
+                  <h4>Energía: solar, eólica, hidro</h4>
+                  <p>Qué prepara Delta y qué queda fuera del alcance.</p>
+                </div>
+                <button class="btn btn-line" type="button" data-go="contacto" data-topic="Ficha de energías">
+                  Pedir ficha
+                </button>
+              </li>
+              <li>
+                <div>
+                  <p class="code">Ficha 03</p>
+                  <h4>Datos para cotizar</h4>
+                  <p>Lista corta de lo que necesitamos antes de visitar.</p>
+                </div>
+                <button class="btn btn-line" type="button" data-go="contacto" data-topic="Lista para cotizar">
+                  Pedir lista
+                </button>
+              </li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="panel" data-panel="contacto" hidden>
+          <header class="panel__top">
+            <div>
+              <p class="code">DELTA-10 · Expediente</p>
+              <h2>Contacto</h2>
+            </div>
+            <button class="icon-btn" type="button" data-close aria-label="Cerrar apartado">×</button>
+          </header>
+          <p class="hint">
+            <button type="button" data-prev-label></button>
+            <button type="button" data-next-label></button>
+            <span>Esc cerrar</span>
+          </p>
+          <div class="panel__body contact">
+            <div>
+              <p class="eyebrow">Escribir a Delta</p>
+              <h3 class="statement">Abre el <em>expediente.</em></h3>
+              <p class="deck">Cuéntanos el predio, el plazo y el frente. Respondemos con alcance, no con un folleto.</p>
+              <dl class="facts">
+                <div>
+                  <dt>Correo</dt>
+                  <dd><a href="mailto:hola@delta.gt">hola@delta.gt</a></dd>
+                </div>
+                <div>
+                  <dt>Teléfono</dt>
+                  <dd>Por asignar</dd>
+                </div>
+                <div>
+                  <dt>Base</dt>
+                  <dd>Guatemala</dd>
+                </div>
+              </dl>
+            </div>
+            <form id="expediente" novalidate>
+              <label>
+                Nombre
+                <input name="nombre" type="text" autocomplete="name" required />
+              </label>
+              <label>
+                Empresa
+                <input name="empresa" type="text" autocomplete="organization" />
+              </label>
+              <div class="form-row">
+                <label>
+                  Correo
+                  <input name="correo" type="email" autocomplete="email" required />
+                </label>
+                <label>
+                  Teléfono
+                  <input name="telefono" type="tel" autocomplete="tel" />
+                </label>
+              </div>
+              <label>
+                Frente
+                <select name="frente" id="frente" required>
+                  <option value="">Selecciona</option>
+                  <option>Obra de predio</option>
+                  <option>Proyecto energético</option>
+                  <option>Soporte energético</option>
+                  <option>Acompañamiento de montaje</option>
+                  <option>Ficha de capacidades</option>
+                  <option>Ficha de energías</option>
+                  <option>Lista para cotizar</option>
+                  <option>Otro</option>
+                </select>
+              </label>
+              <label>
+                Mensaje
+                <textarea name="mensaje" rows="4" required placeholder="Ubicación, plazo y qué necesitas en el terreno."></textarea>
+              </label>
+              <p class="form-error" id="form-error" hidden>Revisa nombre, correo, frente y mensaje.</p>
+              <button class="btn btn-gold" type="submit">Enviar expediente</button>
+              <p class="form-ok" id="form-ok" hidden>
+                Expediente recibido en este navegador. Conecta el formulario a tu correo para que llegue al equipo.
+              </p>
+            </form>
+          </div>
+        </article>
+      </div>
+
+      <div class="fabs">
+        <button class="fab fab-mail" type="button" data-go="contacto" aria-label="Escribir a Delta">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path
+              fill="currentColor"
+              d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Zm0 4-8 5L4 8V6l8 5 8-5Z"
+            />
+          </svg>
+        </button>
+      </div>
+
+      <nav class="dock" id="dock" aria-label="Índice móvil"></nav>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
