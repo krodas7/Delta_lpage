@@ -1,0 +1,294 @@
+{
+  "meta": {
+    "title": "DELTA | Proyectos y servicios",
+    "description": "Delta es una empresa nueva de infraestructura industrial. Obra civil, preparación de sitio y soporte para proyectos de energía e industria.",
+    "footer": "Delta · Proyectos y servicios · Guatemala · hola@delta.gt",
+    "logo": "logo.png",
+    "logoAlt": "Delta. Proyectos y servicios.",
+    "mailLabel": "Escribir a Delta"
+  },
+  "sections": [
+    {
+      "id": "inicio",
+      "kind": "hero",
+      "num": "01",
+      "label": "Inicio",
+      "visible": true,
+      "image": "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=2000&q=70",
+      "eyebrow": "Obra de sitio · Energía · Industria",
+      "titleLead": "Del primer",
+      "titleAccent": "trazo.",
+      "lead": "Empresa nueva dedicada a preparación de terreno, obra civil y soporte de sitio para proyectos industriales y de energía.",
+      "actions": [
+        { "label": "Abrir expediente", "go": "contacto", "style": "gold" },
+        { "label": "Servicios", "go": "servicios", "style": "line" }
+      ]
+    },
+    {
+      "id": "energias",
+      "kind": "media",
+      "num": "02",
+      "label": "Energías",
+      "visible": true,
+      "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=2000&q=70",
+      "code": "DELTA-02 · Solar · Eólica · Hidro",
+      "title": "Energías",
+      "eyebrow": "Línea de energía",
+      "statement": "Sitio listo",
+      "accent": "para generar.",
+      "decks": [
+        "Delta entra antes del montaje. Dejamos plataformas, accesos y obra civil de sitio para que el equipo de generación encuentre un predio ordenado."
+      ],
+      "items": [
+        {
+          "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=900&q=70",
+          "alt": "Campo de paneles solares al atardecer",
+          "code": "01 · Solar",
+          "title": "Energía solar",
+          "text": "Movimiento de tierra, plataformas y caminos internos para campos solares.",
+          "points": ["Preparación de terreno", "Plataformas y accesos", "Obra civil de sitio"]
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1466611653911-95081537e5b7?auto=format&fit=crop&w=900&q=70",
+          "alt": "Aerogeneradores en un parque eólico",
+          "code": "02 · Eólica",
+          "title": "Energía eólica",
+          "text": "Vías de acceso y áreas de trabajo para el ingreso de componentes de gran tamaño.",
+          "points": ["Preparación de predio", "Vías de montaje", "Logística de equipo"]
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=900&q=70",
+          "alt": "Cauce de agua entre roca, referencia de obra hídrica",
+          "code": "03 · Hidro",
+          "title": "Energía hidráulica",
+          "text": "Terracería, contención y apoyo de maquinaria para frentes junto al agua.",
+          "points": ["Terracería", "Muros y contención", "Soporte de equipo"]
+        }
+      ],
+      "actions": [
+        { "label": "Cotizar proyecto energético", "go": "contacto", "style": "gold", "topic": "Proyecto energético" },
+        { "label": "Ver fichas", "go": "fichas", "style": "line" }
+      ]
+    },
+    {
+      "id": "servicios",
+      "kind": "cards",
+      "num": "03",
+      "label": "Servicios",
+      "visible": true,
+      "image": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=2000&q=70",
+      "code": "DELTA-03 · Obra · Campo · Entrega",
+      "title": "Servicios",
+      "eyebrow": "Qué ejecutamos",
+      "statement": "Seis frentes.",
+      "accent": "Un expediente.",
+      "decks": [],
+      "items": [
+        { "code": "01", "title": "Movimiento de tierra", "text": "Corte, relleno y conformación del predio según niveles de proyecto." },
+        { "code": "02", "title": "Plataformas y accesos", "text": "Áreas de trabajo y caminos que aguantan el paso de equipo pesado." },
+        { "code": "03", "title": "Obra civil industrial", "text": "Cimentaciones menores, drenajes, bordillos y obra de sitio." },
+        { "code": "04", "title": "Logística de equipo", "text": "Ingreso, estiba y ventana de trabajo coordinada con el montaje." },
+        { "code": "05", "title": "Soporte de montaje", "text": "Apoyo de maquinaria y cuadrilla mientras otros instalan." },
+        { "code": "06", "title": "Cierre de sitio", "text": "Limpieza, conformación final y entrega con registro de lo ejecutado." }
+      ],
+      "actions": []
+    },
+    {
+      "id": "nosotros",
+      "kind": "split",
+      "num": "04",
+      "label": "Nosotros",
+      "visible": true,
+      "image": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=2000&q=70",
+      "code": "DELTA-04 · Empresa nueva",
+      "title": "Nosotros",
+      "eyebrow": "Por qué existimos",
+      "statement": "Obra clara",
+      "accent": "desde el día uno.",
+      "decks": [
+        "Delta abre con un equipo de campo y una regla simple: el alcance se escribe, el plazo se cumple y el terreno se entrega medible. Somos nuevos. La forma de trabajar no lo es.",
+        "Trabajamos con contratistas, desarrolladores y equipos de energía que necesitan un frente de sitio ordenado, sin letra pequeña."
+      ],
+      "items": [
+        { "code": "01", "title": "Alcance escrito", "text": "Cada expediente dice qué entra, qué no entra y cómo se mide el avance." },
+        { "code": "02", "title": "Presencia en sitio", "text": "La decisión de obra se toma en el predio, no en una cadena de correos." },
+        { "code": "03", "title": "Entrega medible", "text": "Niveles, accesos y cierre quedan registrados antes de dar el frente por listo." }
+      ],
+      "actions": []
+    },
+    {
+      "id": "flota",
+      "kind": "fleet",
+      "num": "05",
+      "label": "Flota",
+      "visible": true,
+      "image": "https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=2000&q=70",
+      "code": "DELTA-05 · Equipo de obra",
+      "title": "Flota",
+      "eyebrow": "Capacidad operativa",
+      "statement": "El equipo",
+      "accent": "sigue al frente.",
+      "decks": [
+        "Movilizamos maquinaria según el expediente. La flota se confirma en cada obra, con operador y ventana de trabajo. No publicamos un inventario fijo."
+      ],
+      "items": [
+        { "code": "EX", "title": "Excavación", "text": "Corte, zanja y carga de material." },
+        { "code": "CA", "title": "Carga y acarreo", "text": "Movimiento interno y salida de excedente." },
+        { "code": "IZ", "title": "Izaje", "text": "Apoyo para piezas y maniobras puntuales." },
+        { "code": "CO", "title": "Compactación", "text": "Plataformas y caminos con el grado pedido." },
+        { "code": "AP", "title": "Apoyo de sitio", "text": "Cuadrilla, herramienta y orden del frente." }
+      ],
+      "actions": []
+    },
+    {
+      "id": "proyectos",
+      "kind": "projects",
+      "num": "06",
+      "label": "Proyectos",
+      "visible": true,
+      "image": "https://images.unsplash.com/photo-1590494165264-1ebe3602eb80?auto=format&fit=crop&w=2000&q=70",
+      "code": "DELTA-06 · Frentes de arranque",
+      "title": "Proyectos",
+      "eyebrow": "Portafolio de apertura",
+      "statement": "Aún no hay",
+      "accent": "obras cerradas.",
+      "decks": [
+        "Delta es nueva. Estos tres frentes son la oferta con la que abrimos, no casos ya entregados. El primer expediente publicado saldrá de una obra real."
+      ],
+      "items": [
+        {
+          "lead": true,
+          "image": "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=1400&q=70",
+          "alt": "Estructura de obra industrial en construcción",
+          "code": "Frente 01",
+          "title": "Predio industrial",
+          "text": "Nivelación, accesos y plataforma para naves o patios de maniobra."
+        },
+        {
+          "lead": false,
+          "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=900&q=70",
+          "alt": "Hileras de paneles solares",
+          "code": "Frente 02",
+          "title": "Campo solar",
+          "text": "Terreno, caminos y obra de sitio previos al montaje."
+        },
+        {
+          "lead": false,
+          "image": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=900&q=70",
+          "alt": "Plano y obra civil en desarrollo",
+          "code": "Frente 03",
+          "title": "Apoyo de montaje",
+          "text": "Maquinaria y orden de sitio mientras se instala equipo."
+        }
+      ],
+      "actions": []
+    },
+    {
+      "id": "metodo",
+      "kind": "steps",
+      "num": "07",
+      "label": "Método",
+      "visible": true,
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=2000&q=70",
+      "code": "DELTA-07 · Cómo trabajamos",
+      "title": "Método",
+      "eyebrow": "Cuatro pasos",
+      "statement": "Del expediente",
+      "accent": "al terreno.",
+      "decks": [],
+      "items": [
+        { "code": "01", "title": "Expediente", "text": "Ubicación, alcance, plazo y restricciones. Sin eso no cotizamos." },
+        { "code": "02", "title": "Reconocimiento", "text": "Visita de sitio, accesos reales y confirmación de equipo." },
+        { "code": "03", "title": "Ejecución", "text": "Frente abierto con avance visible y un responsable en obra." },
+        { "code": "04", "title": "Entrega", "text": "Cierre, registro y predio listo para el siguiente oficio." }
+      ],
+      "actions": []
+    },
+    {
+      "id": "lineas",
+      "kind": "lines",
+      "num": "08",
+      "label": "Líneas",
+      "visible": true,
+      "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=2000&q=70",
+      "code": "DELTA-08 · Oferta",
+      "title": "Líneas",
+      "eyebrow": "Tres maneras de entrar",
+      "statement": "Elige el",
+      "accent": "frente.",
+      "decks": [],
+      "items": [
+        { "code": "Línea A", "title": "Obra de predio", "text": "Tierra, plataformas, drenaje y accesos para industria.", "topic": "Obra de predio" },
+        { "code": "Línea B", "title": "Soporte energético", "text": "Sitio civil para solar, eólica o hidro.", "topic": "Soporte energético" },
+        { "code": "Línea C", "title": "Acompañamiento", "text": "Maquinaria y cuadrilla mientras otro instala.", "topic": "Acompañamiento de montaje" }
+      ],
+      "actions": []
+    },
+    {
+      "id": "fichas",
+      "kind": "sheets",
+      "num": "09",
+      "label": "Fichas",
+      "visible": true,
+      "image": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=2000&q=70",
+      "code": "DELTA-09 · Documentos",
+      "title": "Fichas",
+      "eyebrow": "Material de arranque",
+      "statement": "Se piden.",
+      "accent": "No se inventan.",
+      "decks": [
+        "Las fichas salen con el primer ciclo de obra. Mientras tanto puedes solicitar el borrador y te lo enviamos con el expediente."
+      ],
+      "items": [
+        { "code": "Ficha 01", "title": "Capacidades de sitio", "text": "Alcance de tierra, plataformas y cierre.", "cta": "Pedir ficha", "topic": "Ficha de capacidades" },
+        { "code": "Ficha 02", "title": "Energía: solar, eólica, hidro", "text": "Qué prepara Delta y qué queda fuera del alcance.", "cta": "Pedir ficha", "topic": "Ficha de energías" },
+        { "code": "Ficha 03", "title": "Datos para cotizar", "text": "Lista corta de lo que necesitamos antes de visitar.", "cta": "Pedir lista", "topic": "Lista para cotizar" }
+      ],
+      "actions": []
+    },
+    {
+      "id": "contacto",
+      "kind": "contact",
+      "num": "10",
+      "label": "Contacto",
+      "visible": true,
+      "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=2000&q=70",
+      "code": "DELTA-10 · Expediente",
+      "title": "Contacto",
+      "eyebrow": "Escribir a Delta",
+      "statement": "Abre el",
+      "accent": "expediente.",
+      "decks": ["Cuéntanos el predio, el plazo y el frente. Respondemos con alcance, no con un folleto."],
+      "facts": [
+        { "label": "Correo", "value": "hola@delta.gt", "href": "mailto:hola@delta.gt" },
+        { "label": "Teléfono", "value": "Por asignar", "href": "" },
+        { "label": "Base", "value": "Guatemala", "href": "" }
+      ],
+      "fields": {
+        "nombre": "Nombre",
+        "empresa": "Empresa",
+        "correo": "Correo",
+        "telefono": "Teléfono",
+        "frente": "Frente",
+        "mensaje": "Mensaje"
+      },
+      "placeholder": "Ubicación, plazo y qué necesitas en el terreno.",
+      "error": "Revisa nombre, correo, frente y mensaje.",
+      "ok": "Expediente recibido en este navegador. Conecta el formulario a tu correo para que llegue al equipo.",
+      "submit": "Enviar expediente",
+      "emptyOption": "Selecciona",
+      "options": [
+        "Obra de predio",
+        "Proyecto energético",
+        "Soporte energético",
+        "Acompañamiento de montaje",
+        "Ficha de capacidades",
+        "Ficha de energías",
+        "Lista para cotizar",
+        "Otro"
+      ],
+      "items": [],
+      "actions": []
+    }
+  ]
+}
